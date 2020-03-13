@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar img {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li {
+    padding: 0 8px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.first-design {
+    color: #347aeb;
+}
+
+.second-design {
+    color: white;
+    background: black;
+    height: 5px;
+    width: 20px;
+    padding: 2px;
+}
+
+.third-design {
+    color: #34dfeb;
+}
+
+.fourth-design {
+    color: #a38e27;
+    font-style: italic;
+}
+
+.first-letter {
+    color: #a35d27;
+}
+
+.second-letter {
+    color: #27a34e;
+}
+
+.third-letter {
+    color: #276fa3;
+}
+
+.fourth-letter {
+    color: #a32748;
+}
+
+.sixth-design {
+    color: #a38627;
+    font-style: italic;
+}
+
+#home-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 25px;
+    text-align: center;
+}
+
+.home-images {
+    height: 250px;
+    width: 250px;
+}
+
+#home a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.bg-light {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 80px;
+}
+
+.bg-dark ul {
+    background: black;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.bg-dark ul li {
+    margin-left: 80px;
+}
+
+
+#footer li {
+    list-style: none;
+    padding: 5px;
+}
+
+#footer li a {
+    text-decoration: none;
+    color: grey;
+}
+
+#footer li a:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.footer-heading {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
